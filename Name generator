@@ -9,9 +9,9 @@
 #5. Make sure the input cursor shows on a new line, see the example at:
 #   https://band-name-generator-end.appbrewery.repl.run/
 
-step1 = print("welcome to the band name generator")
-step2 = input("what city did you grow up in? ")
-step3 = input("what is the name of your pet? ")
+step1 = print("welcome to the band name generator\n")
+step2 = input("what city did you grow up in?\n")
+step3 = input("what is the name of your pet?\n")
 step4 = str(step3) +" "+ str(step2)
 print(str(step4))
 
