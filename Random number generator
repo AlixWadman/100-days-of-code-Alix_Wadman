@@ -1,0 +1,10 @@
+# Random number generator
+import random
+number = random.randint(1, 100)
+guess = int(input("what is your number"))
+if guess > 50:
+    print("its more than 50")
+elif guess < 49:
+    print("its less than 50")
+final = str(number)
+print("the number is " + final + "!")
