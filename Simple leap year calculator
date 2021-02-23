@@ -1,3 +1,4 @@
+# old code
 if year % 4 == 0:
   print("yeah its a leap year!")
 elif year % 100 == 0:
@@ -5,3 +6,13 @@ elif year % 100 == 0:
 else:
   print("that is not a leap year")
 # simple leap year caculator
+
+# new code
+
+year = int(input("Which year do you want to check? "))
+if year % 4 == 0:
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print("thats a leep year")
+else:
+  print("that is not a leap year")
