@@ -1,0 +1,21 @@
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+
+bmi = weight / height * height
+print(bmi)
+
+print(bmi)
+
+if bmi <= 18:
+  print("you are underweight")
+elif bmi <= 19:
+  print("your are normal")
+elif bmi <= 25:
+  print("you need to work on it slighy over weight")
+elif bmi <= 30:
+  print("over weight")
+elif bmi <= 31:
+  print("you are obese")
+else:
+  print(" you are clinicaly obese dear god Its time to work out!!!")
+  # still have bugs to work out with the comparison opperators 
