@@ -1,0 +1,7 @@
+if year % 4 == 0:
+  print("yeah its a leap year!")
+elif year % 100 == 0:
+  print("Yeah its a leap year again!!")
+else:
+  print("that is not a leap year")
+# simple leap year caculator
