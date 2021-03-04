@@ -1,0 +1,16 @@
+print("Welcome to Cross roads.")
+print("Your mission is to cross the roads.") 
+
+action = input("Do you cross the road Y or N ")
+
+if action == "Y":
+  print("You crossed the road congrats")
+  action = input("Do you cross the road Y or N again with the sign? ")
+  if action == "Y":
+    print("Congrats you made it across again")
+    if action == "Y":
+     action = input("do you you want to cross the last road with the car Y or N ")
+     print("you made it across nice man you made it!!!")
+
+else:
+  print("you did not cross the road")
