@@ -1,0 +1,8 @@
+import random
+
+heads = random.randint(0,1)
+
+if heads == 1:
+  print("Hey its Heads yeah!")
+else:
+  print("it is Tails yeah")
